@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ed82a597-57a1-4113-a47f-372f31290787" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1YneWhYe93z58jPHdzv0dAjLkaJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/_site/assets/img" />
+      <recent name="$PROJECT_DIR$/_site/assets" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed82a597-57a1-4113-a47f-372f31290787" name="Default Changelist" comment="" />
+      <created>1583582818959</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583582818959</updated>
+      <workItem from="1583582820241" duration="3230000" />
+      <workItem from="1583854046452" duration="2205000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="101" key="#Markdown" timestamp="1583854676552">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="320" y="101" key="#Markdown/0.23.1440.825@0.23.1440.825" timestamp="1583854676552" />
+    <state x="229" y="74" key="SettingsEditor" timestamp="1583854740734">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="229" y="74" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1583854740734" />
+    <state x="385" y="174" width="670" height="675" key="search.everywhere.popup" timestamp="1583855527476">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="385" y="174" width="670" height="675" key="search.everywhere.popup/0.23.1440.825@0.23.1440.825" timestamp="1583855527476" />
+    <state x="385" y="174" width="670" height="676" key="search.everywhere.popup/0.23.1440.827@0.23.1440.827" timestamp="1583697229432" />
+  </component>
+</project>
