@@ -3,6 +3,7 @@ layout: post
 title:  "A 5 years journey of software engineering"
 date:   2020-03-10 12:56:31 +0100
 categories: stories
+thumbnail_image: /assets/img/posts/5-years-journey-of-software-engineering.jpeg
 ---
 ![author](/assets/img/posts/5-years-journey-of-software-engineering.jpeg)
 
