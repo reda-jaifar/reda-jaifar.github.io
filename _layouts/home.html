@@ -34,8 +34,8 @@ layout: default
             {%- if site.show_excerpts -%}
             {{ post.excerpt }}
             {%- endif -%}
+            <img src="{{ post.thumbnail_image }}" />
         </li>
-        <img src="{{ post.thumbnail_image }}" />
         {%- endfor -%}
     </ul>
 
