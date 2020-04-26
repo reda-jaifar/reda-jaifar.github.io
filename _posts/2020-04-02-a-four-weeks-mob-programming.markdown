@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A 4 weeks mob programming"
-date:   2020-03-10 12:56:31 +0100
+date:   2020-04-02 12:56:31 +0100
 categories: agile
 thumbnail_image: /assets/img/posts/a-4-weeks-mob-programming.jpg
 ---
