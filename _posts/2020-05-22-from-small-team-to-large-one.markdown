@@ -52,10 +52,10 @@ In our organization we understood this quickly and thanks to our agile coach we 
  some practices to continue delivering added value feature continuously.
  
 ## Single Point of Knowledge
-As our team begin to grow and having many members than needed in an agile mode, I observed in the lake of
- coordination, close collaboration and effective communication, a new single points of knowledge get their place in
+As our team begin to grow and having many members than needed in an agile model, I observed in the lake of
+ coordination, close collaboration, and effective communication, new single points of knowledge taking  place in
   our organization as some people with or without attention monopolize and hold in their corner some specific
-   knowledge or expertise which impacts the pace of productivity, innovation and rotation.
-   Contrarely to the case of a small team where the knowledge and responsibilities are well shared and all members
-    have almost the same level of knowledge about the project which avoid the 'indispensable member' obstacle and
-     lead to a transparent and rapid rotation and delivery.
+   knowledge or expertise which impacts the pace of productivity, innovation, and rotation.
+   Contrarily to the case of a small team where the knowledge and responsibilities are well shared and all members
+    have almost the same level of knowledge about the project which avoids the 'indispensable member' obstacle and
+     lead to transparent and rapid rotation and delivery.
