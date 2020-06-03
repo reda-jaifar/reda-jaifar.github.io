@@ -59,3 +59,25 @@ As our team begin to grow and having many members than needed in an agile model,
    Contrarily to the case of a small team where the knowledge and responsibilities are well shared and all members
     have almost the same level of knowledge about the project which avoids the 'indispensable member' obstacle and
      lead to transparent and rapid rotation and delivery.
+     
+## Team representative and interface
+When I was part of a small team there was a member who keeps the team informed, knows the organization’s culture, 
+and promotes best practices that make our entity inspiring. Often this role appears naturally cause the person playing
+ it holds some qualities that help him representing the team, interfacing with management contrarily in the context of
+  the old school team, a project manager take this responsibility. But can we have many representatives (Leaders) in
+   the team? In my point of view, YES as each member has a different style therefore we can boost the team’s 
+   productivity and creativity. Shared leadership led also to reduce responsibilities stress, thrive solidarity. 
+   For the company we observed many advantages once we made the move to this model:
+* Share the the bigger picture with everyone.
+* give the company more options.
+* increase in decision making transparency.
+
+Finally, the question is can this model succeed with a large team? From my experience, this can be a huge challenge
+ for the management but also for immature teams who can considerably slow down the decision making.
+ 
+I’ve been part of different teams small and large and I believe that adopting the right management style and
+ establishing a transparent and honest relationship whether between team members or between teams and the management
+  should always gain the upper hand.
+
+Being the representative of your team is talking about your shared values and practices, defending your team's decisions
+ and choices. But in any case shouldn't be a position that we take over.
