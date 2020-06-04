@@ -17,7 +17,7 @@ with scrum method, I do believe that this team size was just perfect as the comm
  decision making is quick and effective. We developers were using the git flow branching strategy. A new branch is
   created for each user story, commit added, pull request created and reviewed then merged into the master. Product
    owner manage easily his backlog. The scrum master scheduled perfectly our scrum sessions and these one were
-    gainful in term of bossiness understanding and story telling. Thanks to the great work of our UX/UI design
+    gainful in term of business understanding and story telling. Thanks to the great work of our UX/UI design
      integrating the UI and implementing the user experience is definitely optimal thanks to sketch software.
      
 >The team size was a key element to a successful journey, providing a great added value at the end of each sprint
