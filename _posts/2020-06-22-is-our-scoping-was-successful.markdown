@@ -3,9 +3,9 @@ layout: post
 title:  "is our scoping was successful?"
 date:   2020-06-22 07:56:31 +0100
 categories: stories
-thumbnail_image: /assets/img/posts/is-our-scoping-was-successful.jpeg
+thumbnail_image: /assets/img/posts/is-our-scoping-was-successful.jpg
 ---
-![author](/assets/img/posts/is-our-scoping-was-successful.jpeg)
+![author](/assets/img/posts/is-our-scoping-was-successful.jpg)
 
 A new project is in the pipeline and we are ready to kick off this new challenge, Our team is ready and full of
  energy and enthusiasm. A scoping sessions are scheduled this week.
@@ -79,7 +79,7 @@ Regarding internal communication between team members, Personally I have a lot o
 Agile practices come to solves today's project issues and pains, but at any stage we should be wedged, In my opinion
  we have to cope with challenges, involve team in every decision, think differently and act like one.
  Scoping is the stage where we invite all involved people to the same boat with one goal is to reach the
-  destination. 
+  destination.
      
  
 
