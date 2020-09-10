@@ -44,7 +44,7 @@ What kind of format our documents should follow to write down the specifications
  details we should draft? this question is indispensable to answer before starting, the more we give attention to
   what to write the more implementation will be easily taking into consideration all constraints and customer
    specific requirements such as solution's time responding, availability, number of future users. These notes help
-    considerably when it come to architecture design and technical stack decisions.
+    considerably when it comes to architecture design and technical stack decisions.
     
 ## Deliverable frequency and type
 While in agile project continuous delivery is at the heart of it and shouldn't be part of discussions but the

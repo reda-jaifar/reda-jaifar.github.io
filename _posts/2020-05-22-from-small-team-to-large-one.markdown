@@ -38,7 +38,7 @@ When is come to working together and collaborating with a team, communication is
 
 # Support and expertise
 One of the greatest points when you are part of a small team, is that you know each member is scope of expertise
- which is very  useful and effective when it come to coordinate whether to change a piece of code, to integrate a new
+ which is very  useful and effective when it comes to coordinate whether to change a piece of code, to integrate a new
   technology or document a feature. Unfortunately this advantage disappears along the way a team begins to extend and
    we start to be distributed which affects our knowledge about expertise mapping in the project and for sure consume
     more time to find the right source to support you. 
