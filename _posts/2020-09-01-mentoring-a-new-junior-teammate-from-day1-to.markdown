@@ -81,8 +81,29 @@ Collaboration over delegation, this is what happens when we have less time to ex
 > A mentor should walk side by side with a trainee helping being autonomous instead of completing tasks for him quickly
     
 # Day 5
-Are you a good listener? you a mentor need to listen a lot to a trainee, give him all the time to explain his point
- of view or vision even tough you're not okay with or you're sure  he is not on the right way, keep calm and let him
+Are you a good listener? I was convinced as a mentor I need to listen a lot to my trainee, give him all the time to
+ explain his point
+ of view or vision even tough Im not okay with or Im not sure  he is not on the right way, keep calm and let him
   finish, I see many colleagues when a junior comes with a new idea, or an initiative, they quickly try to crop
    believing that is it a wast time, Unfortunately this behavior may dramatically degraded a junior's self-confidence 
    and his motivation for future initiatives.
+   
+#  Next Day
+The days go by one after the other and I'm getting so happy to see our team growing up and how our new junior
+ colleague is  taking over subjects and becoming autonomous, This  trusted and honest relationship we built together
+  is  bringing what expected to be. I do believe that mentoring someone else is nothing than giving him the right and
+   the necessary tools to dive alone with confident into any subject.
+This friendly relationship help us learn from each other, I do appreciate supporting my colleague during his first
+ days within our team and in the company. His questions, exchanges and remarks let me learn how to communicate and
+  explain my ideas and point of view  with a low level  using simple and easy expressions to understand  when
+   talking to  debutant person  or someone outside of my field of expertise.
+   
+# It's been a constructive journey
+Along the way, I learned a lot of things and values I would like to summarize below:
+
+    * Stay humble when you talk to junior or debutant people.
+    * There is always something to learn from others whatever their expertise level.
+    * Share and publish your knowledge to help serve and improve yourself and others.
+    * Gain respect and recognition
+    
+*publish, share, exchange to help serve, shape and improve the world*
