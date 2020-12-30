@@ -27,9 +27,12 @@ A few years ago I've had the opportunity to discover agility at my university, t
 
 Breaking a big task down into small, more feasible ones helped me avoid procrastination and an overwhelmed workload. Here are some steps to follow for breaking a task down, but remember that you're the only one capable of doing that depending on the context, the knowledge, and priorities:
 
-    1 - Make sure you visualize the big picture, that means what the end product or job should look like
-    2 - Think about the order, which one should be completed first, second, and so on...
-    3 - Define milestones:  make a short plan which will help you stay on track.
+    1 - Make sure you visualize the big picture, that means what the end product
+        or make sure you visualize
+    2 - Think about the order, which one should be completed first, second,
+        and so on...
+    3 - Define milestones:  make a short plan which will help you stay
+        on track.
     4 - Complete your tasks early to have additional time for a final review
     
 I do believe that permanent iteration pays in the end, with the adoption of a few concepts we gain confidence and progression:
