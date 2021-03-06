@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Software testing from separate activity to core development"
-date:   2020-03-10 12:56:31 +0100
+date:   2021-03-06 12:56:31 +0100
 categories: stories
 thumbnail_image: /assets/img/posts/software-testing-from-separate-activity-to-core-development.jpeg
 ---
