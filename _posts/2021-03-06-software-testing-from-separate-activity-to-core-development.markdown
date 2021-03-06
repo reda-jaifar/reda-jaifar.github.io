@@ -47,3 +47,7 @@ pain of slower to run and difficult to maintain, the reason why it's recommended
 unit or integration tests as shown the the following figure:
     
 ![the test pyramid](/assets/img/figures/test-pyramid.png)
+
+----
+* [Martin Fowler's blog](https://martinfowler.com/testing/)
+* [Clean Code Book by Robert C.Martin](https://www.pearson.com/us/higher-education/program/Martin-Clean-Code-A-Handbook-of-Agile-Software-Craftsmanship/PGM63937.html)
