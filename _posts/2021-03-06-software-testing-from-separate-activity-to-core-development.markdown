@@ -5,7 +5,7 @@ date:   2020-03-10 12:56:31 +0100
 categories: stories
 thumbnail_image: /assets/img/posts/software-testing-from-separate-activity-to-core-development.jpeg
 ---
-![author](/assets/img/posts/5-years-journey-of-software-engineering.jpeg)
+![author](/assets/img/posts/software-testing-from-separate-activity-to-core-development.jpeg)
 
 I remember these days when we used to write testing code after implementing the software features in order to make sure
 that the code is working, avoid bugs. In addition we create some scripts to automate interactions with the program.
