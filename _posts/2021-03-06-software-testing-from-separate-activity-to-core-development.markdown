@@ -12,7 +12,8 @@ that the code is working, avoid bugs. In addition we create some scripts to auto
 
 Writing testing code was a separate activity to programming.
 
-#Agile redefine our testing philosophy
+# Agile redefine our testing philosophy
+
 When the agile was born a the fruit of a working group including Martin Fowler manifesto that defines how agile method
 will speed up the software development to bring new products to market faster. The testing activity start taking a new
 definition from a side part activity to undistinguished work of software development. Especially with 
