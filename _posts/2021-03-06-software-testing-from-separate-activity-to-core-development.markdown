@@ -7,45 +7,53 @@ thumbnail_image: /assets/img/posts/software-testing-from-separate-activity-to-co
 ---
 ![author](/assets/img/posts/software-testing-from-separate-activity-to-core-development.jpeg)
 
-I remember these days when we used to write testing code after implementing the software features in order to make sure
-that the code is working, avoid bugs. In addition we create some scripts to automate interactions with the program.
+I remember these days when we used to write testing code after implementing the software features to make sure
+that the code is working, avoid bugs. Besides, we create some scripts to automate interactions with the program.
 
-Writing testing code was a separate activity to programming.
+Writing testing code was a separate activity from programming.
 
 # Agile redefine our testing philosophy
 
-When the agile was born a the fruit of a working group including Martin Fowler manifesto that defines how agile method
-will speed up the software development to bring new products to market faster. The testing activity start taking a new
-definition from a side part activity to undistinguished work of software development. Especially with 
-the Xtreme programming method that take the TDD as it's core paradigm. We will cover in further details the TDD in a
-dedicated section below, but first let's review the different types of tests we can code.
+When Agile was born in early 2000 as the fruit of a working group including Martin Fowler, The manifesto defines how agile methods
+will speed up the software development to bring new products to market faster. The testing activity starts taking a new
+definition from a side part activity to undistinguished work of software development, Especially with 
+the Xtreme programming method that takes the TDD as its core paradigm. We will cover in further detail the TDD in a
+dedicated section below, but first, let's review the different types of tests.
+> NB: there are plenty of test types we can code and run, in this post, I share with you only the main ones
+from a developer's perspective. Below a non-exhaustive list of test types:
+
+     - Functional testing
+     - Load and stress testing
+     - Usability testing
+     - Security and Vulnerability testing
+     - Monkey testing
 
 ## Unit tests
-This type of software testing cover small and isolated components of a software to make sure they behave as expected,
-Nowadays these code fragment are writing by the developer itself while implementing the product's features. There are some
+This type of software testing cover small and isolated components of software to make sure they behave as expected,
+Nowadays these code fragments are writing by the developer itself while implementing the product's features. There are some
 properties that these tests should hold
     * They should be fast.
     * Run frequently as part of the continuous integration process, so they are executed after each commit.
-    * They need to be readable, Maintainable and Trustworthy.
+    * They need to be readable, Maintainable, and Trustworthy.
     
 ## Integration tests
-The main role of this type of tests to confirm that the independent developed component that compose an application
-or a system are working as expected together. For example in a Layered architecture base application, you may what to make
-sure that your DAO or Repositories are working fine, or verify the web layer interactions with the business layer is matching
+The main role of this type of test to confirm that the independently developed components that compose an application
+or a system are working as expected together. For example in a Layered architecture based application, you may what to make
+sure that your DAO or Repositories are working fine, or verify the web layer interactions with the business layer are matching
 the desired behavior, here where the integration tests come to.
 
-Integration tests may cover a plenty of scenarios, here are some common ones:
+Integration tests may cover a variety  of scenarios, here are some common ones:
     * Testing 2 or more components interactions and data flow
-    * Verify the data sent by a component is well formatted by another one before processing it.
-    * Verify the our component handles cases where they lost connectivity between them.
+    * Verify the data sent by a component is well-formatted by another one before processing it.
+    * Verify components handle cases where they lost connectivity between them.
     
 # End to End Tests
-They may take also the name of broad-stack tests of full-stack tests, Despite their slow time of execution they constitute
-an important value for the product quality as they test the behavior of the application in a real environment. They intent to 
-reproduce the end user interaction with the product and make sure that the features work fine.
-These tests have a the advantage of testing the software with all its parts connected, in the other hand the have the
+They may take also the name of broad-stack tests or full-stack tests, Despite their slow time of execution they constitute
+an important value for the product's quality as they test the behavior of the application in a real environment.
+They are intended to reproduce the end-user interaction with the product and make sure that every feature is responding as it what designed.
+These tests have the advantage of testing the software with all its parts connected, on the other hand, they have the
 pain of slower to run and difficult to maintain, the reason why it's recommended to reduce the number of these tests compared to 
-unit or integration tests as shown the the following figure:
+unit or integration ones as shown in the following figure:
     
 ![the test pyramid](/assets/img/figures/test-pyramid.png)
 
