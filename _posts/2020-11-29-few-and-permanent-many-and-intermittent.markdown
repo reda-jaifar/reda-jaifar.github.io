@@ -6,7 +6,7 @@ categories: stories
 thumbnail_image: /assets/img/posts/few-and-permanent-many-and-intermittent.jpg
 ---
 ![author](/assets/img/posts/few-and-permanent-many-and-intermittent.jpg)
-[Photo by Rachen Buosa](https://garden.lovetoknow.com/image/224771~handwithseedlings.jpg)
+[Photo by Rachen Buosa](https://garden.lovetoknow.com/image/224771~handwithseedlings.jpg){:target="_blank"}
 
 This post's title is an old quote I've heard since my early edge, but I never gave it much attention or tried to go beyond this phase, just some words shared by older people in my family. Unfortunately, it took me years before I mind the importance of continuously complete small tasks and cut off with the idea of doing the whole job at once.
 Thanks to agility I'm changing my mind and acquiring new ways of working and producing.

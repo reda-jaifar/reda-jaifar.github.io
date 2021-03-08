@@ -6,7 +6,8 @@ categories: stories
 thumbnail_image: /assets/img/posts/software-testing-from-separate-activity-to-core-development.jpeg
 ---
 ![author](/assets/img/posts/software-testing-from-separate-activity-to-core-development.jpeg)
-[photo source](https://www.railwaysignalling.eu/istanbul-ankara-high-speed-railway-aims-to-open-in-february2014/cropped-b-broshure-forside4-jpg)
+[photo source](https://www.railwaysignalling.eu/istanbul-ankara-high-speed-railway-aims-to-open-in-february2014/cropped-b-broshure-forside4-jpg){:target="_blank"}
+
 I remember these days when we used to write testing code after implementing the software features to make sure
 that the code is working, avoid bugs. Besides, we create some scripts to automate interactions with the program.
 
