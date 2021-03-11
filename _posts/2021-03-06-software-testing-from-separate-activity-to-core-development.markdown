@@ -56,6 +56,8 @@ These tests have the advantage of testing the software with all its parts connec
 pain of slower to run and difficult to maintain, the reason why it's recommended to reduce the number of these tests compared to 
 unit or integration ones as shown in the following figure:
 
+![the test pyramid](/assets/img/figures/test-pyramid.png)
+
 # TDD: Test Driven Development
 Since its apparition there is many books have been published, I recommend to read one or more to understand this philosophy in deep and acquire
 a solid skills for writing tests, Here is my must-read <span style="color:blue">**Test Driven Development By Example**, __Kent Beck__ </span>
@@ -115,9 +117,6 @@ As described by __Robert Martin__ in his book __Clean Code__ a clean test follow
     - Timely: Tests should be written before production code.
     
 Finally, we want to think about tests as the compass to reach our destination which is the final secure, viable, and high-quality product we want to build.
-
-
-![the test pyramid](/assets/img/figures/test-pyramid.png)
 
 ----
 * [Martin Fowler's blog](https://martinfowler.com/testing/)
