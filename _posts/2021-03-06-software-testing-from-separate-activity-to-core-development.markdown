@@ -55,9 +55,72 @@ They are intended to reproduce the end-user interaction with the product and mak
 These tests have the advantage of testing the software with all its parts connected, on the other hand, they have the
 pain of slower to run and difficult to maintain, the reason why it's recommended to reduce the number of these tests compared to 
 unit or integration ones as shown in the following figure:
+
+# TDD: Test Driven Development
+Since its apparition there is many books have been published, I recommend to read one or more to understand this philosophy in deep and acquire
+a solid skills for writing tests, Here is my must-read <span style="color:blue">**Test Driven Development By Example**, __Kent Beck__ </span>
+
+>I'll define TDD as a programming style in which production and test code are written together, with the production code
+> just after the test one.
+
+By now we described the TDD, there are some rules to take into consideration:
+    * Rule one:     We don't write production code before we've written a failing test.
+    * Rule two:     We don't write additional tests than sufficient to implement our first scenario of a use case.
+    * Rule three:   We don't write more production code than needed to pass the currently failing test.
     
+As the TDD is relatively becoming a mature discipline, it started encouraging further innovations derived from it, such BDD
+whose main goal is to get developers, testers and people from the business to talk to each other. In other words 
+> the real intent is to try and work out what your customer or business wants from the software before you start working on it
+
+Once we adopt the TDD and start working this way with testing side by side with production code, we'll write many tests
+per use case or (feature), and more by component and you can imagine the numbers of lines we'll end up with,
+managing tests code became as important as production one. I encourage to keep tests clean.
+__what makes a test clean? Readability, shortness and expressive. The following snippet shows an example of a test written
+with the intention to make it clean, but surely the is no perfect example to follow, just keep in mind to give yours test code your attention.
+```java
+@Test
+  public void testAcceptBooking() {
+    // given a booking id
+    BookingId bookingId = "48e58688-adc2-4e3d-be9d-f5129723b351";
+
+    // when
+    Either<AcceptBookingError, BookingResponse> either = acceptBookingUseCase
+                                                          .accept(bookingId);
+
+    // then
+    assertThat(either.get().getStatus()).isEqualTo(BookingStatus.ACCEPTED);
+  }
+```
+There is another concept that makes our tests more readable, convenient, and easier to maintain, **Domain-Specific Testing Language**
+The idea is to create a set of functions and utilities to hide the details of implementation of your test, the example above we can write
+it this way
+```java
+@Test
+  public void testAcceptBooking() {
+    giving()
+        ._a_bookinId()
+    .when()
+        .we_accept_a_booking()
+    .then()
+        .the_booking_should_has_accepted_status();
+  }
+```
+
+As described by __Robert Martin__ in his book __Clean Code__ a clean test follow other rules that form the F.I.R.S.T acronym
+
+    - Fast: Tests shoud be fast
+    - Independent: Tests should not depend on each other
+    - Repeatable: Tests should be repeatable in any environment
+    - Self-Validating: The tests should have a boolean output
+    - Timely: Tests should be written before production code.
+    
+Finally, we want to think about tests as the compass to reach our destination which is the final secure, viable, and high-quality product we want to build.
+
+
 ![the test pyramid](/assets/img/figures/test-pyramid.png)
 
 ----
 * [Martin Fowler's blog](https://martinfowler.com/testing/)
 * [Clean Code Book by Robert C.Martin](https://www.pearson.com/us/higher-education/program/Martin-Clean-Code-A-Handbook-of-Agile-Software-Craftsmanship/PGM63937.html)
+* [Cucumber Blog](https://cucumber.io/blog/bdd/intro-to-bdd-and-tdd/)
+* [Agile Alliance](https://www.agilealliance.org/glossary/tdd/)
