@@ -26,7 +26,7 @@ Hopefully, a few months ago from writing these lines, I landed in the right plac
 
 Here at my current job, we develop MVPs and squads are completely autonomous for their stack and architecture choices meanwhile we all teams within this happy community are using agile methods convinced that these methods not only increases productivity but also facilitates project management, improves the quality of work and makes flexible change possible.
 
-It was about sharing my career path until now in a short story, I do like called journey with the faith that our job
+It was about sharing my career path until now in a short story, I do like to call it a journey with the faith that our job
  is part of our overall life, not an only professional one, this is why I'll always trying to do it with __passion__
  , and surrounded with analogous and complementary __people__.
 
