@@ -206,8 +206,10 @@ Finally I would like to share my thoughts about DevOps, First of all is all abou
 be prepared for, I'm think about people within our teams who are comfortable with old processes to deliver software, we should walk
 with them side by side during the promotion phase to help them understand and believe in the benefits they can gain with these new
 ways of creating software.
+
 Second points, is about the tools, today there are plenty of DevOps tools we can choose from, In my point of view having a whole one
 platform that provides implementations for major needed tools is extremely recommended such as CI/CD, tracking systems, code source repository etc...
+
 Last point is about continuous word, because once we put in place these DevOps tools and spread the practices we think that the job is done,
 but is all about continuous improvement and surely new issues will be faced and we need to be prepared to analyze and solve them again, this what engineering is about.
 
