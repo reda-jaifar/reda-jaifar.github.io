@@ -40,7 +40,7 @@ In my opinion, we need to behave like coach  and trainee, or like teacher and st
   
   In the other side, the trainee needs some skills, or call them behaviours like be good
    listener, a hungry man who wants to enrich his knowledge by asking for details, but certainly without disturbing
-    the mentor, Because this one is meanwhile a employee with tasks and missions to complete, So as a trainee we keep
+    the mentor, Because this one is meanwhile an employee with tasks and missions to complete, So as a trainee we keep
      calm and patient when we don't have some information or answers immediately. For the trainee the mentoring
       should represents an opportunity to know more, have different points of view, but in any case should impact
        our analysis capabilities, and influence our decision making, we have to protect our autonomous which it is
@@ -48,7 +48,7 @@ In my opinion, we need to behave like coach  and trainee, or like teacher and st
 
 # Day 1
 I've been delighted to welcome with my team our new colleague who has just graduated and he is today starting his
- first job as a software engineering. I took him for a short tour to discover the office, the facilities and our
+ first job as a software engineer. I took him for a short tour to discover the office, the facilities and our
   beautiful kitchen corner where often we share coffee time.
 I think the first impression if very important the reason why my team and I gave it all our intention to make it at
  the same time funny and useful for our team-mate. We wanted to help him feel very comfortable. For today apart

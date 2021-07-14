@@ -119,7 +119,7 @@ As described by __Robert Martin__ in his book __Clean Code__ a clean test follow
 Finally, we want to think about tests as the compass to reach our destination which is the final secure, viable, and high-quality product we want to build.
 
 ----
-* [Martin Fowler's blog](https://martinfowler.com/testing/)
-* [Clean Code Book by Robert C.Martin](https://www.pearson.com/us/higher-education/program/Martin-Clean-Code-A-Handbook-of-Agile-Software-Craftsmanship/PGM63937.html)
-* [Cucumber Blog](https://cucumber.io/blog/bdd/intro-to-bdd-and-tdd/)
-* [Agile Alliance](https://www.agilealliance.org/glossary/tdd/)
+* [Martin Fowler's blog](https://martinfowler.com/testing/){:target="_blank"}
+* [Clean Code Book by Robert C.Martin](https://www.pearson.com/us/higher-education/program/Martin-Clean-Code-A-Handbook-of-Agile-Software-Craftsmanship/PGM63937.html){:target="_blank"}
+* [Cucumber Blog](https://cucumber.io/blog/bdd/intro-to-bdd-and-tdd/){:target="_blank"}
+* [Agile Alliance](https://www.agilealliance.org/glossary/tdd/){:target="_blank"}
