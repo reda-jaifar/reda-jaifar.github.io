@@ -202,16 +202,11 @@ In the above figure, we mention gitlab CI/CD as our continuous integration and d
 any other combination of DevOps tools from the ones listed in previous paragraphs for CI/CD.
 ---
 
-Finally I would like to share my thoughts about DevOps, First of all is all about a culture, a change that the organization should
-be prepared for, I'm think about people within our teams who are comfortable with old processes to deliver software, we should walk
-with them side by side during the promotion phase to help them understand and believe in the benefits they can gain with these new
-ways of creating software.
+Finally, I would like to share my thoughts about DevOps, First of all is all about a culture, a change that the organization should be prepared for, I’m think about people within our teams who are comfortable with old processes to deliver software, we should walk with them side by side during the promotion phase to help them understand and believe in the benefits they can gain with these new ways of creating software.
 
-Second points, is about the tools, today there are plenty of DevOps tools we can choose from, In my point of view having a whole one
-platform that provides implementations for major needed tools is extremely recommended such as CI/CD, tracking systems, code source repository etc...
+The second point is about the tools, today there are plenty of DevOps tools we can choose from, In my point of view having a whole one platform that provides implementations for major needed tools is extremely recommended such as CI/CD, tracking systems, code source repository, etc…
 
-Last point is about continuous word, because once we put in place these DevOps tools and spread the practices we think that the job is done,
-but is all about continuous improvement and surely new issues will be faced and we need to be prepared to analyze and solve them again, this what engineering is about.
+The last point is about the word "continuous" because once we put in place these DevOps tools and spread the practices we think that the job is done but is all about continuous improvement and surely new issues will be faced and we need to be prepared to analyze and solve them again, this what engineering is about.
 
 * [AWS DevOps](https://aws.amazon.com/devops/what-is-devops/){:target="_blank"}
 * [Microservices Patterns by Chris Richardson](https://www.manning.com/books/microservices-patterns){:target="_blank"}
