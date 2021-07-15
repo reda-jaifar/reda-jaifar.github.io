@@ -23,19 +23,19 @@ dedicated section below, but first, let's review the different types of tests.
 > NB: there are plenty of test types we can code and run, in this post, I share with you only the main ones
 from a developer's perspective. Below a non-exhaustive list of test types:
 
-     - Functional testing
-     - Load and stress testing
-     - Usability testing
-     - Security and Vulnerability testing
-     - Monkey testing
+- Functional testing
+- Load and stress testing
+- Usability testing
+- Security and Vulnerability testing
+- Monkey testing
 
 ## Unit tests
 This type of software testing cover small and isolated components of software to make sure they behave as expected,
 Nowadays these code fragments are writing by the developer itself while implementing the product's features. There are some
 properties that these tests should hold
-    * They should be fast.
-    * Run frequently as part of the continuous integration process, so they are executed after each commit.
-    * They need to be readable, Maintainable, and Trustworthy.
+- They should be fast.
+- Run frequently as part of the continuous integration process, so they are executed after each commit.
+- They need to be readable, Maintainable, and Trustworthy.
     
 ## Integration tests
 The main role of this type of test to confirm that the independently developed components that compose an application
@@ -44,9 +44,9 @@ sure that your DAO or Repositories are working fine, or verify the web layer int
 the desired behavior, here where the integration tests come to.
 
 Integration tests may cover a variety  of scenarios, here are some common ones:
-    * Testing 2 or more components interactions and data flow
-    * Verify the data sent by a component is well-formatted by another one before processing it.
-    * Verify components handle cases where they lost connectivity between them.
+- Testing 2 or more components interactions and data flow
+- Verify the data sent by a component is well-formatted by another one before processing it.
+- Verify components handle cases where they lost connectivity between them.
     
 # End to End Tests
 They may take also the name of broad-stack tests or full-stack tests, Despite their slow time of execution they constitute
@@ -66,9 +66,9 @@ a solid skills for writing tests, Here is my must-read <span style="color:blue">
 > just after the test one.
 
 By now we described the TDD, there are some rules to take into consideration:
-    * Rule one:     We don't write production code before we've written a failing test.
-    * Rule two:     We don't write additional tests than sufficient to implement our first scenario of a use case.
-    * Rule three:   We don't write more production code than needed to pass the currently failing test.
+- Rule one:     We don't write production code before we've written a failing test.
+- Rule two:     We don't write additional tests than sufficient to implement our first scenario of a use case.
+-  Rule three:   We don't write more production code than needed to pass the currently failing test.
     
 As the TDD is relatively becoming a mature discipline, it started encouraging further innovations derived from it, such BDD
 whose main goal is to get developers, testers and people from the business to talk to each other. In other words 
@@ -77,7 +77,7 @@ whose main goal is to get developers, testers and people from the business to ta
 Once we adopt the TDD and start working this way with testing side by side with production code, we'll write many tests
 per use case or (feature), and more by component and you can imagine the numbers of lines we'll end up with,
 managing tests code became as important as production one. I encourage to keep tests clean.
-__what makes a test clean? Readability, shortness and expressive. The following snippet shows an example of a test written
+__what makes a test clean__? Readability, shortness and expressive. The following snippet shows an example of a test written
 with the intention to make it clean, but surely the is no perfect example to follow, just keep in mind to give yours test code your attention.
 ```java
 @Test
@@ -116,7 +116,7 @@ As described by __Robert Martin__ in his book __Clean Code__ a clean test follow
     - Self-Validating: The tests should have a boolean output
     - Timely: Tests should be written before production code.
     
-Finally, we want to think about tests as the compass to reach our destination which is the final secure, viable, and high-quality product we want to build.
+Finally, we want to think about tests as the compass to reach our destination which is the final secure, viable, and high-quality product we build.
 
 ----
 * [Martin Fowler's blog](https://martinfowler.com/testing/){:target="_blank"}
