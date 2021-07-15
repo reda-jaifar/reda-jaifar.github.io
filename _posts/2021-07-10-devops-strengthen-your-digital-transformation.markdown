@@ -188,7 +188,7 @@ __Booking Application__ is an application that cover mainly 3 modules as follow:
 ![Hotel Booking Application](/assets/docs/hotel-booking-app-pipleline-v1.svg)
 *The large Hotel Booking App team commits their changes to a single source code repository. The path from code to production is long and onerous and involves manual intervention*
 
-Now let's discover how ce can transform our hotel booking application to make easily extensible, maintainable and continuously
+Now let's discover how ce can transform our hotel booking application to make it easily extensible, maintainable and continuously
 updated. We will decompose the monolithic application into small loosely coupled services, and put in place a modern pipeline
 to help us respond rapidly to new requested changes and deliver quicker new versions. The figure below demonstrate the new application
 architecture and pipeline structures:
