@@ -21,7 +21,7 @@ definition from a side part activity to undistinguished work of software develop
 the Xtreme programming method that takes the TDD as its core paradigm. We will cover in further detail the TDD in a
 dedicated section below, but first, let's review the different types of tests.
 > NB: there are plenty of test types we can code and run, in this post, I share with you only the main ones
-from a developer's perspective. Below a non-exhaustive list of test types:
+from a developer's perspective. Below is a non-exhaustive list of test types:
 
 - Functional testing
 - Load and stress testing
@@ -30,7 +30,7 @@ from a developer's perspective. Below a non-exhaustive list of test types:
 - Monkey testing
 
 ## Unit tests
-This type of software testing cover small and isolated components of software to make sure they behave as expected,
+This type of software testing covers small and isolated components of software to make sure they behave as expected,
 Nowadays these code fragments are writing by the developer itself while implementing the product's features. There are some
 properties that these tests should hold
 - They should be fast.
@@ -38,8 +38,8 @@ properties that these tests should hold
 - They need to be readable, Maintainable, and Trustworthy.
     
 ## Integration tests
-The main role of this type of test to confirm that the independently developed components that compose an application
-or a system are working as expected together. For example in a Layered architecture based application, you may what to make
+The main role of this type of test is to confirm that the independently developed components that compose an application
+or a system are working as expected together. For example in a Layered architecture-based application, you may what to make
 sure that your DAO or Repositories are working fine, or verify the web layer interactions with the business layer are matching
 the desired behavior, here where the integration tests come to.
 
@@ -59,26 +59,26 @@ unit or integration ones as shown in the following figure:
 ![the test pyramid](/assets/img/figures/test-pyramid.png)
 
 # TDD: Test Driven Development
-Since its apparition there is many books have been published, I recommend to read one or more to understand this philosophy in deep and acquire
-a solid skills for writing tests, Here is my must-read <span style="color:blue">**Test Driven Development By Example**, __Kent Beck__ </span>
+Since its apparition there is many books have been published, I recommend reading one or more to understand this philosophy is deep and acquire
+solid skills for writing tests, Here is my must-read <span style="color:blue">**Test Driven Development By Example**, __Kent Beck__ </span>
 
 >I'll define TDD as a programming style in which production and test code are written together, with the production code
-> just after the test one.
+> just after test one.
 
-By now we described the TDD, there are some rules to take into consideration:
+By now we have described the TDD, there are some rules to take into consideration:
 - Rule one:     We don't write production code before we've written a failing test.
 - Rule two:     We don't write additional tests than sufficient to implement our first scenario of a use case.
 -  Rule three:   We don't write more production code than needed to pass the currently failing test.
     
-As the TDD is relatively becoming a mature discipline, it started encouraging further innovations derived from it, such BDD
-whose main goal is to get developers, testers and people from the business to talk to each other. In other words 
+As the TDD is relatively becoming a mature discipline, it started encouraging further innovations derived from it, such as BDD
+whose main goal is to get developers, testers, and people from the business to talk to each other. In other words 
 > the real intent is to try and work out what your customer or business wants from the software before you start working on it
 
 Once we adopt the TDD and start working this way with testing side by side with production code, we'll write many tests
 per use case or (feature), and more by component and you can imagine the numbers of lines we'll end up with,
-managing tests code became as important as production one. I encourage to keep tests clean.
-__what makes a test clean__? Readability, shortness and expressive. The following snippet shows an example of a test written
-with the intention to make it clean, but surely the is no perfect example to follow, just keep in mind to give yours test code your attention.
+managing tests code became as important as production one. I encourage you to keep tests clean.
+__what makes a test clean__? Readability, shortness, and expressive. The following snippet shows an example of a test written
+with the intention to make it clean, but surely the is no perfect example to follow, just keep in mind to give your test code your attention.
 ```java
 @Test
   public void testAcceptBooking() {
@@ -94,7 +94,7 @@ with the intention to make it clean, but surely the is no perfect example to fol
   }
 ```
 There is another concept that makes our tests more readable, convenient, and easier to maintain, **Domain-Specific Testing Language**
-The idea is to create a set of functions and utilities to hide the details of implementation of your test, the example above we can write
+The idea is to create a set of functions and utilities to hide the details of the implementation of your test, the example above we can write
 it this way
 ```java
 @Test
