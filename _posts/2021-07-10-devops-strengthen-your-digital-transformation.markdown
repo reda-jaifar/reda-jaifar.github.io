@@ -197,9 +197,12 @@ architecture and pipeline structures:
 *The microservices-based application consists of a set of small, decoupled services, developed, tested and deployed independently thanks to a fully automated CI/CD*
 
 ---
+
+
 **NOTE**
 In the above figure, we mention gitlab CI/CD as our continuous integration and deployment platform.We can use
-any other combination of DevOps tools from the ones listed in previous.
+any other combination of DevOps tools from the ones listed in previous paragraphs. 
+
 ---
 
 Finally, I would like to share my thoughts about DevOps, First of all is all about a culture, a change that the organization should be prepared for, I’m think about people within our teams who are comfortable with old processes to deliver software, we should walk with them side by side during the promotion phase to help them understand and believe in the benefits they can gain with these new ways of creating software.
