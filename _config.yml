@@ -27,6 +27,14 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: https://reda-jaifar.github.io
 twitter_username: reda_jaifar
 github_username:  reda-jaifar
+author:
+  twitter: reda_jaifar
+social:
+  name: Reda Jaifar
+  links:
+    - https://twitter.com/reda_jaifar
+    - https://github.com/reda-jaifar
+    - https://www.linkedin.com/in/mjaifar
 
 # Build settings
 theme: minima
