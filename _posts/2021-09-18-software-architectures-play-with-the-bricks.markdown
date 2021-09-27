@@ -1,4 +1,4 @@
----
+gt ---
 layout: post
 title:  "Software Architecture: Play With Bricks"
 date:   2021-09-18 12:49:31 +0100
