@@ -102,7 +102,35 @@ The years go by and the software development community began to recognize some d
 
 These disadvantages lead to an alternative architecture style we present next.
 
-## 
+## The Hexagonal Architecture Style
+This architecture style organizes the logical view in a way that puts the business logic at the center. In contrast to the layered
+architecture that has a presentation layer, we have here one or more inbound adapters that handle requests from the outside by invoking
+the business logic. The same applied to the persistence layer, the application has or more outbound adapters that are invoked by the business logic and invoke external applications.
+The main characteristic of this architecture style is that the business logic doesn't depend on these adapters, instead they depend on it.
+The Business logic has one or more ports.A __port__ defines a set of operations and is how the business logic interacts with
+what's outside it. For example in java these ports are a Java Interface. we distinguish inbound and outbound ports. An inbound port is an API exposed by
+the business logic, which enables it to be invoked by external applications, for example a REST API.An outbound port is how the business
+logic invokes external systems like Database Access Repositories.
+
+Like the ports there are inbound and outbound adapters. An inbound adapter handles requests from the outside world
+by invoking an inbound port. For example in the case of a Java Web Application using Spring framework, An inbound
+adapter is a Rest Controller that will invoke inbound port exposed by the business logic.
+An outbound adapter implements an outbound port and handles requests from the business logic by invoking an external
+application or service.An example of an outbound adapter is an Event Publisher to Kafka or any other Event streaming system.
+
+Let me remind you that decoupling the business logic from the presentation and data access is the important benefit
+of the hexagonal architecture style. This is very useful also when it comes to testing as you can use <abbr title="Test Driven Development">__TDD__</abbr>
+easily as you can test your business logic in an isolation.It also defines new model for the modern applications where the 
+business logic can be invoked by multiple adapters each one of them invokes an external system.
+
+> The Hexagonal Architecture style is well fit to define the architecture of each service in a microservice architecture.
+
+Both the layered and hexagonal architectures are a set of constraints and rules on how elements within the logical
+view are connected and how they communicate. In the next section we'll talk about the implementation view and see
+what are the options for and when to choose one or another.
+
+# Implementation view's Architectural Styles
+
 
 ----
 
