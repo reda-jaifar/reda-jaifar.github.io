@@ -24,9 +24,16 @@ description: >- # this means to ignore newlines until "baseurl:"
   Reda Jaifar is blog on software engineering methods and practices, organizations' digital challenges and collaboration
   performances.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: https://reda-jaifar.github.io
 twitter_username: reda_jaifar
 github_username:  reda-jaifar
+author: reda jaifar
+social:
+  name: Reda Jaifar
+  links:
+    - https://twitter.com/reda_jaifar
+    - https://github.com/reda-jaifar
+    - https://www.linkedin.com/in/mjaifar
 
 # Build settings
 theme: minima
@@ -44,7 +51,14 @@ disqus:
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
 # the internal "default list".
-#
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
