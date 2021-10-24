@@ -20,14 +20,16 @@
 
 title: Reda Jaifar
 email: https://www.linkedin.com/in/mjaifar/
-description: >- # this means to ignore newlines until "baseurl:"
-  Reda Jaifar is blog on software engineering methods and practices, organizations' digital challenges and collaboration
-  performances.
+description: Reda Jaifar is blog on software engineering methods and practices, organizations' digital challenges and collaboration performances.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://reda-jaifar.github.io
 twitter_username: reda_jaifar
 github_username:  reda-jaifar
+<<<<<<< HEAD
 author: reda jaifar
+=======
+author: reda_jaifar
+>>>>>>> post: software architecture
 social:
   name: Reda Jaifar
   links:
