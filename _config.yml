@@ -25,11 +25,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: https://reda-jaifar.github.io
 twitter_username: reda_jaifar
 github_username:  reda-jaifar
-<<<<<<< HEAD
 author: reda jaifar
-=======
-author: reda_jaifar
->>>>>>> post: software architecture
 social:
   name: Reda Jaifar
   links:
