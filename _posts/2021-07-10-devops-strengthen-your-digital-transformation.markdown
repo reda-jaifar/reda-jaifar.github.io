@@ -210,5 +210,6 @@ The second point is about the tools, today there are plenty of DevOps tools we c
 
 The last point is about the word "continuous" because once we put in place these DevOps tools and spread the practices we think that the job is done but is all about continuous improvement and surely new issues will be faced and we need to be prepared to analyze and solve them again, this what engineering is about.
 
+----
 * [AWS DevOps](https://aws.amazon.com/devops/what-is-devops/){:target="_blank"}
 * [Microservices Patterns by Chris Richardson](https://www.manning.com/books/microservices-patterns){:target="_blank"}
