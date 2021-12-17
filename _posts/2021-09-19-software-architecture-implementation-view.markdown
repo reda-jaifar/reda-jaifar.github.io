@@ -69,15 +69,33 @@ Two services are loosely coupled if changes in the design, implementation or beh
 a change in one enforces an almost immediate change to one or more microservices that collaborate with it directly or indirectly.
 
 While designing microservices architecture and in order to make the services the less coupling possible, consider the following points:
-#### <span style="color:blue">Database sharing</span>
+#### <span style="color:orange">Database sharing</span>
 the data storage is a microservice implementation details that should be hidden to its clients (usually other microservices). 
 If Microservice A needs to access data of Microservice B, B should provide an API that A will use to consume the needed data
 
-#### Code Sharing
+#### <span style="color:orange">Code Sharing</span>
 By definition microservices do not share codebase, but we may want to avoid redundancy by sharing dependency libraries and
-end up needing to update frequently in response to clients change requests. So shared code should be as minimum as possible.
-A good practice that may seem strange at glance is to duplicate code so each service has its own copy, so we need to update the library to match Service A requirements, Service B remains un-impacted 
+end up needing to update frequently in response to that libraries` clients change requests. So shared code should be as minimum as possible.
+A good practice that may seem strange at glance is to duplicate code so each service has its own copy, so we need to update
+the library to match Service A requirements, Service B remains un-impacted 
 
+#### <span style="color:orange">Synchronous Communication</span>
+In a microservice architecture services cooperate to accomplish the job, so they need to communicate either asynchronously or
+synchronously where the service caller expects a timely response from the callee service  might even block while it waits. To address the potential
+response latency, we can integrate a caching mechanism or implementing the [circuit breaker pattern](https://microservices.io/patterns/reliability/circuit-breaker.html) to avoid cascading failures. These two options
+could help remediate the system quickly, but for the long term the best alternative is switching to an asynchronous communication
+by using a messaging broker like [Apache Kafka](https://kafka.apache.org/), So services can cooperate by publishing and consuming messages.
+
+When it comes to designing the next generation software, relying on a strong and reliable architecture helps a lot, In the
+recent decades, much great software conquered the market and are serving millions of users while scaling up and down to reduce
+cost and energy or respond to an increasing number of requests. __Microservices Architecture__ is part of other practices
+and engineering designs behind thanks to its benefits, a non-exhaustive listed below:
+
+- Independent development: microservices can be developed in isolation to accomplish a defined functionality
+- Independent deployment: microservices can be deployed individually and independently in any environment (cloud, on premise, managed infrastructure)
+- Fault isolation: if one service fall down, the system remains up and only the functionality provided by that stopped microservice will be impacted
+- Technology stack: different programming languages, frameworks and technologies can be used to build the same software (usually a [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service))
+- Individually scaling: each service can scale as per need, is not necessarily to scale the whole system as is the case of monolithic based  application
 
 https://www.capitalone.com/tech/software-engineering/how-to-avoid-loose-coupled-microservices/
 https://www.edureka.co/blog/interview-questions/microservices-interview-questions/
@@ -86,3 +104,4 @@ https://www.edureka.co/blog/interview-questions/microservices-interview-question
 * [Software Architecture Definition by Wikipedia](https://en.wikipedia.org/wiki/Software_architecture){:target="_blank"}
 * [The “4+1” View Model of Software Architecture by Philippe Kruchten](https://www.cs.ubc.ca/~gregor/teaching/papers/4+1view-architecture.pdf){:target="_blank"}
 * [Advancing the Practice of Software Architecture by Software Engineering Institute](https://www.sei.cmu.edu/our-work/software-architecture/){:target="_blank"}
+* [Microservice Patterns by Chris Richardson](https://microservices.io){:target="_blank"}
