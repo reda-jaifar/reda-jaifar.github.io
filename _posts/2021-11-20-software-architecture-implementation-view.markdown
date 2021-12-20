@@ -60,9 +60,11 @@ __Let's tackle with further detail the microservices inter-communications in a d
 
 ### What is a service?
 As the word service is a most recurrent when we explore the microservice architecture, Here is a definition:
-> A service is an independent deployable application or software component that provides a set of functionalities accessible through an API. Service has its own
-> logical architecture, Hexagonal architecture may fit many use-cases ( [read more about Hexagonal Architecture and alternatives in this article]({% post_url 2021-10-17-software-architecture-logical-view %}) )
-> in addition a service can be developed with its specific technology stack that may differ from other services' technology stacks in a microservices architecture
+> A service is an independent deployable application or software component that provides a set of functionalities accessible
+> through an API. Service has its own logical architecture, Hexagonal architecture may fit many use-cases, In addition
+> a service can be developed with its specific technology stack that may differ from other services' technology stacks in a microservices architecture
+
+[read more about Hexagonal Architecture and alternatives in this article]({% post_url 2021-10-17-software-architecture-logical-view %}){:target="_blank"}
 
 ### What is loosely coupled Services and why they should?
 Two services are loosely coupled if changes in the design, implementation, or behavior in one __won't__ cause change in others. In a Microservices architecture, the coupling will happen when
