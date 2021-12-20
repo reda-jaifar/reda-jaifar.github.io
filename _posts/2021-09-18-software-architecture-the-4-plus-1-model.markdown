@@ -74,7 +74,7 @@ examples of its use? What are the advantages and disadvantages of using that
 style? What are some common specializations?
 
 in the next part, let's explore some of the most known architecture styles
-[Logical View]({% post_url 2021-09-19-software-architecture-logical-view %})
+[Logical View]({% post_url 2021-10-17-software-architecture-logical-view %})
 
 ----
 

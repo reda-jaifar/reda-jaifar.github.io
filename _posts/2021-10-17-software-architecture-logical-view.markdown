@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Software Architecture: The Logical View"
-date:   2021-09-19 12:49:31 +0100
+date:   2021-10-17 12:49:31 +0100
 categories: stories
 thumbnail_image: /assets/img/posts/logical-view.jpeg
 ---
