@@ -13,7 +13,7 @@ thumbnail_image: /assets/img/posts/implementation-view.jpeg
 
 
 # The implementation view
-Includes the result of the build process that can be run or deployed such as a Java JAR or Node.js Package. These interacts
+Includes the result of the build process that can be run or deployed such as a Java JAR or Node.js Package. These artifacts interact
 with each other in the form of a composition or dependency relationship.
 
 ##  The Monolithic Architecture Style
@@ -61,7 +61,7 @@ __Let's tackle with further detail the microservices inter-communications in a d
 ### What is a service?
 As the word service is a most recurrent when we explore the microservice architecture, Here is a definition:
 > A service is an independent deployable application or software component that provides a set of functionalities accessible through an API. Service has its own
-> logical architecture, Hexagonal architecture may fit many use-cases ( [read more about Hexagonal Architecture and alternatives in this article]({% post_url 2021-09-19-software-architecture-logical-view %}) )
+> logical architecture, Hexagonal architecture may fit many use-cases ( [read more about Hexagonal Architecture and alternatives in this article]({% post_url 2021-10-17-software-architecture-logical-view %}) )
 > in addition a service can be developed with its specific technology stack that may differ from other services' technology stacks in a microservices architecture
 
 ### What is loosely coupled Services and why they should?
@@ -82,9 +82,9 @@ the library to match Service A requirements, Service B remains un-impacted
 #### <span style="color:orange">Synchronous Communication</span>
 In a Microservice architecture, services cooperate to accomplish the job, so they need to communicate either asynchronously or
 synchronously where the service caller expects a timely response from the callee service might even block while it waits. To address the potential
-response latency, we can integrate a caching mechanism or implement the [circuit breaker pattern](https://microservices.io/patterns/reliability/circuit-breaker.html) to avoid cascading failures. These two options
+response latency, we can integrate a caching mechanism or implement the [circuit breaker pattern](https://microservices.io/patterns/reliability/circuit-breaker.html){:target="_blank"} to avoid cascading failures. These two options
 could help remediate the system quickly, but for the long term, the best alternative is switching to asynchronous communication
-by using a messaging broker like [Apache Kafka](https://kafka.apache.org/), So services can cooperate by publishing and consuming messages.
+by using a messaging broker like [Apache Kafka](https://kafka.apache.org/){:target="_blank"}, So services can cooperate by publishing and consuming messages.
 
 When it comes to designing the next-generation software, relying on a strong and reliable architecture helps a lot, In
 recent decades, much great software conquered the market and is serving millions of users while scaling up and down to reduce
@@ -94,7 +94,7 @@ and engineering designs behind thanks to its benefits, below is a non-exhaustive
 - Independent development: microservices can be developed in isolation to accomplish a defined functionality
 - Independent deployment: microservices can be deployed individually and independently in any environment (cloud, on-premise, managed infrastructure)
 - Fault isolation: if one service fails, the system remains up and only the functionality provided by that stopped microservice will be impacted
-- Technology stack: different programming languages, frameworks, and technologies can be used to build the same software (usually a [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service))
+- Technology stack: different programming languages, frameworks, and technologies can be used to build the same software, usually a [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service){:target="_blank"}
 - Individually scaling: each service can scale as per need, is not necessarily to scale the whole system as is the case of monolithic based  application
 
 Despite the number of advantages Microservices Architecture is bringing, choosing it over Monolithic Architecture relies upon
