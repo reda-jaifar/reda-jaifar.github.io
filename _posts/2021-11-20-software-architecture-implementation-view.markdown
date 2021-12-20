@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Software Architecture: The Implementation View"
-date:   2021-09-20 18:49:31 +0100
+date:   2021-11-20 18:49:31 +0100
 categories: stories
 thumbnail_image: /assets/img/posts/implementation-view.jpeg
 ---
