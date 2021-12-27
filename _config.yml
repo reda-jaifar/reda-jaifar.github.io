@@ -53,6 +53,9 @@ disqus:
 # Google Analytics
 google_analytics: G-3K3ETH2JZ8
 
+# Google Adsense
+google_adsense: ca-pub-6334546624156883
+
 defaults:
   -
     scope:
