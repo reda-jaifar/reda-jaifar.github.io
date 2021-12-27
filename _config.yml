@@ -49,6 +49,10 @@ disqus:
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
 # the internal "default list".
+
+# Google Analytics
+google_analytics: G-3K3ETH2JZ8
+
 defaults:
   -
     scope:
