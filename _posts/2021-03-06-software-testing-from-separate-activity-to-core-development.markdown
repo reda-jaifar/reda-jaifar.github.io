@@ -39,7 +39,7 @@ properties that these tests should hold
     
 ## Integration tests
 The main role of this type of test is to confirm that the independently developed components that compose an application
-or a system are working as expected together. For example in a Layered architecture-based application, you may what to make
+or a system are working as expected together. For example in a Layered architecture-based application, you may want to make
 sure that your DAO or Repositories are working fine, or verify the web layer interactions with the business layer are matching
 the desired behavior, here where the integration tests come to.
 
