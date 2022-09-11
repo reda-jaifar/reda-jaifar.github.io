@@ -19,8 +19,8 @@ We need to write functional test to validate the features from a user perspectiv
  -  Usability: checks whether the feature is easily usable, for example, a button is freely reachable on the page.
  -  Errors: when a subsystem is not responding, do we display an error message to the user to help him understand what's going on.
 
-###   <a href="#givenwhenthen"> Functional testing style
-A common form that functional testing take is the Given-When-Then, this approach coming from the [BDD World](#BDD) defines the structure of many testing frameworks such as Cucumber that we will cover in our example later in this article.
+### Functional testing style
+A common form that functional testing take is the Given-When-Then, this approach coming from the [BDD (Behaviour Driven Development)](#bdd-behavior-driven-development) defines the structure of many testing frameworks such as Cucumber that we will cover in our example later in this article.
 The prime idea is to break down a scenario (test)  into three sections:
 
  - **Given**:  the given part defines the pre-conditions before challenging the system by executing or running a feature.
@@ -107,9 +107,9 @@ if you're using Intellij Idea Cucumber Plugin, you should see the keyword colore
  - **Feature**: is a keyword that should be followed by the feature name, a good practice is to use the name of the file. The line that follows is a description that will be ignored by Cucumber execution parser.
    <br />**NB**:  We use a feature by file
  - **Scenario**: defines the name of a scenario, we can have as many scenarios as expected by a feature.
- - **Given, When, Then**: are the steps of the scenario. Refers to the definition [above](#givenwhenthen).
+ - **Given, When, Then**: are the steps of the scenario. Refers to the definition [above](#functional-testing-style).
 ```shell
-    mvn test
+mvn test
  ```
 
 ```shell
